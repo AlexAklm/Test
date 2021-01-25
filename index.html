@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form class="main" action="index.html">
+        <h1>Пользователи</h1>
+        <div class="input_data">
+          <lable for="login">Логин:</lable>
+          <input type="text" name="login" id="login" placeholder="Введите логин">
+        </div>
+        <div class="input_data">
+          <lable for="password">Пароль:</lable>
+          <input type="password" name="password" id="password" placeholder="Введите пароль">
+        </div>
+        <div class="input_data">
+          <lable for="mail">E-mail:</lable>
+          <input type="text" name="mail" id="mail" placeholder="Введите email">
+        </div>
+        <div class="input_data gender">
+          <label for="_gender">Пол:</label>
+          <select id="_gender" name="gender">
+            <option value="Male">Мужской</option>
+            <option value="Female">Женский</option>
+          </select>
+        </div>
+        <div class="no-active">
+          <label for="active">Неактивен</label>
+          <input type="checkbox" id="active" name="active">
+        </div>
+        <button class="create-btn" name="create">Создать</button>
+      </form>
+
+      <table class="data">
+        <tr>
+          <th width="40%">Логин</th>
+          <th>E-mail</th>
+          <th>Actions</th>
+        </tr>
+      </table>
+    
+
+    <script src="script/script.js"></script>
+</body>
+</html>
